@@ -91,6 +91,6 @@ h2 {
     color: #ffffff; /* White color */
     text-align: center;
 }
-.footer a:hover {
-    color: lightblue; 
+a:hover {
+    color: red; 
 }
