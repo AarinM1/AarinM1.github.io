@@ -92,6 +92,7 @@ h2 {
     text-align: center;
 }
 .footer a:hover,
-a:not(.btn--remix):hover {
-    color: red;
+a:not(.btn--remix):hover,
+p a:hover {
+    color: red; 
 }
