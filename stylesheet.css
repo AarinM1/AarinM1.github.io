@@ -91,9 +91,14 @@ h2 {
     color: #ffffff; /* White color */
     text-align: center;
 }
-.footer a:hover,
-a:not(.btn--remix):hover,
-p a:hover {
-    color: red !important;
+.websites a:link{
+    color: blue;
+}
+.websites a:visited {
+    color: lightblue;
+}
+
+.websites a:hover {
+    color: red;
 }
 
