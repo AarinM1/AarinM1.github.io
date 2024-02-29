@@ -94,5 +94,6 @@ h2 {
 .footer a:hover,
 a:not(.btn--remix):hover,
 p a:hover {
-    color: red; 
+    color: red !important;
 }
+
