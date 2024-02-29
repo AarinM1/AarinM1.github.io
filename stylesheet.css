@@ -14,9 +14,6 @@
 * {
     box-sizing: border-box;
 }
-[hidden] {
-    display: none !important;
-}
 
 /* Navigation grid */
 .footer {
@@ -65,7 +62,7 @@ a:not(.btn--remix):visited {
 
 /* Very light scaling for our illustration */
 .title {
-    color: #2800FF;
+    color: white;
     font-family: var(--font-family);
     font-style: normal;
     font-weight: bold;
@@ -87,7 +84,7 @@ a:not(.btn--remix):visited {
 
 /* Subheading */
 h2 {
-    color: #2800FF;
+    color: white;
 }
 #title {
     font-size: 36px;
