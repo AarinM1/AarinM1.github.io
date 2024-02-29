@@ -89,3 +89,11 @@ a:not(.btn--remix):visited {
 h2 {
     color: #2800FF;
 }
+#title {
+    font-size: 36px;
+    color: #ffffff; /* White color */
+    text-align: center;
+}
+.footer a:hover {
+    color: lightblue; 
+}
