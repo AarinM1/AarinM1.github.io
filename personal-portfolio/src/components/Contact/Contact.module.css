@@ -3,30 +3,26 @@
 .container {
   color: var(--color-text);
   margin-top: 120px;
-  background-color: var(--color-secondary);
+  background-color: var(--color-dark-highlight);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
+  align-items: center;
 }
 
 .text h2 {
-  font-size: 80px;
-  font-weight: 700;
+  font-size: var(--text-size-title);
+  font-weight: var(--text-weight-title);
   letter-spacing: 4px;
-}
-
-.text p {
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 2px;
+  padding-bottom: 50px;
 }
 
 .links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   list-style: none;
   gap: 26px;

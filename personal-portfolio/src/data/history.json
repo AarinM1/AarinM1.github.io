@@ -1,29 +1,29 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
+    "role": "Software Engineer Intern",
+    "organisation": "USAA",
+    "startDate": "May, 2024",
+    "endDate": "Aug, 2024",
+    "experiences": ["To be experienced", "To be experienced"],
+    "imageSrc": "history/usaa.png"
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
+    "role": "Cyber Software Engineer Intern",
+    "organisation": "Tetra Pak",
+    "startDate": "May, 2023",
+    "endDate": "November, 2023",
+    "experiences": ["Developed scripts for automation", "Designed interactive dashboards"],
+    "imageSrc": "history/tetrapak.png"
+  },
+  {
+    "role": "Software Development Intern",
+    "organisation": "Theta Software Solutions LLC",
+    "startDate": "May, 2022",
     "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "Designed & migrated database system",
+      "Implemented OOP into backend system"
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/tss.png"
   }
 ]

@@ -5,6 +5,8 @@
     --color-secondary: #3782ec;
     --color-dark: #0e067c;
     --color-bg: #abd3fa;
+    --color-light-highlight: #d3e9ff;
+    --color-dark-highlight: #9cc9f6;
 
     /* --color-text: #fff;
     --color-primary: #576cbc;
@@ -14,5 +16,6 @@
 
     /* Fonts */
     --font-roboto: 'Roboto';
-    
+    --text-size-title: 35px; 
+    --text-weight-title: 700;
 }
