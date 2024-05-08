@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 49px;
+    margin-top: 50px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
@@ -24,7 +24,10 @@
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 120%);
+    background: linear-gradient(
+        90deg, 
+        var(--color-secondary) 30%, 
+        var(--color-dark) 79%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -34,6 +37,7 @@
     font-size: 30px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
+    color: var(--color-secondary);
 }
 
 .contactBtn {

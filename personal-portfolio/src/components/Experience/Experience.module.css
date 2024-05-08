@@ -2,7 +2,7 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
+  margin-top: 80px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -19,21 +19,21 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 14px;
+  margin-top: 15px;
 }
 
 .skills {
   width: 45%;
   display: flex;
   flex-wrap: wrap;
-  gap: 37px;
+  gap: 40px;
 }
 
 .skill {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 11px;
+  gap: 10px;
 }
 
 .skillImageContainer {
@@ -60,16 +60,17 @@
   width: 45%;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 35px;
 }
 
 .historyItem {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  gap: 15px;
+  background: #0080ff;
+  background: linear-gradient(90deg, var(--color-primary) 0%,
+   rgba(255, 255, 255, 0) 100%);
   border-radius: 10px;
   padding: 24px;
 }
