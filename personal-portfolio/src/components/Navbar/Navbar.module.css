@@ -8,6 +8,7 @@
     padding-top: 60px;
     z-index: 2;
     margin: 0 10%;
+    justify-content: flex-end; 
 }
 
 .title {
@@ -15,7 +16,6 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
-
 }
 
 .menuBtn {

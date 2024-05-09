@@ -4,8 +4,8 @@
   position: relative;
   background-color: rgba(117, 155, 204, 0.6);
   border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
+  padding: 50px;
+  margin-top: 100px;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
@@ -13,8 +13,8 @@
 
 .title {  
   color: var(--color-text);
-  font-size: 35px;
-  font-weight: 700;
+  font-size: var(--text-size-title);
+  font-weight: var(--text-weight-title);
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
@@ -59,11 +59,12 @@
 
 .aboutItem h3 {
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .aboutItem p {
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 830px) {
