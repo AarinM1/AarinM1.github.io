@@ -1,12 +1,13 @@
 import React from "react";
-
 import styles from "./Projects.module.css";
+import { useNavigate } from 'react-router-dom';
 
 
 export const Projects = () => {
+  let navigate = useNavigate();
+
   const handleClick = () => {
-    console.log("Button clicked! Implement your logic here.");
-    // Add your logic for handling the button click
+    navigate('/AllProjs');
   };
 
   return (
