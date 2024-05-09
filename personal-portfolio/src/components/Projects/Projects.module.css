@@ -10,7 +10,7 @@
 .title {
   color: var(--color-text);
   font-size: var(--text-size-title);
-  font-weight: var(--font-weight-title);
+  font-weight: var(--text-weight-title);
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
