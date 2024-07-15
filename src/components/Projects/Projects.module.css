@@ -1,0 +1,39 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: var(--text-size-title);
+  font-weight: var(--text-weight-title);
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.projBtn {
+  background-color: var(--color-dark-highlight);
+  color: var(--color-text);
+  border: none;
+  border-radius: 10px;
+  padding: 20px 40px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.projBtn:hover {
+  background-color: var(--color-primary);
+}

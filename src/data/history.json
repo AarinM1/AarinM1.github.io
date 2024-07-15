@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Software Engineer Intern",
+    "organisation": "USAA",
+    "startDate": "May, 2024",
+    "endDate": "Aug, 2024",
+    "experiences": ["Worked with Large Language Models", "Synced financial transactions with IoT devices"],
+    "imageSrc": "history/usaa.png"
+  },
+  {
+    "role": "Cyber Software Engineer Intern",
+    "organisation": "Tetra Pak",
+    "startDate": "May, 2023",
+    "endDate": "November, 2023",
+    "experiences": ["Developed scripts for automation", "Designed interactive dashboards"],
+    "imageSrc": "history/tetrapak.png"
+  },
+  {
+    "role": "Software Development Intern",
+    "organisation": "Theta Software Solutions LLC",
+    "startDate": "May, 2022",
+    "endDate": "Aug, 2022",
+    "experiences": [
+      "Designed & migrated database system",
+      "Implemented OOP into backend system"
+    ],
+    "imageSrc": "history/tss.png"
+  }
+]
