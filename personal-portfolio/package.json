@@ -6,11 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint src/App.jsx src/main.jsx vite.config.js eslint.config.js",
+    "lint": "eslint src vite.config.js eslint.config.js --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fontsource/outfit": "^5.3.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   },

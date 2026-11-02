@@ -42,3 +42,25 @@ These tools are not shipped in the static site. Recheck `npm audit` when
 upstream releases arrive; no forced major transitive override has been applied.
 
 Experience summaries and the Release Detective overview omit implementation details and internal metrics.
+
+### Final release verification
+
+A clean Node 24 `npm ci`, full-source lint, and production build pass. The
+production-only npm audit reports **zero known vulnerabilities**. The full
+installation reports **six moderate findings**, all from the ESLint/minimatch
+development dependency chain. The installed minimatch is 10.2.6; the advisory
+requires 11.0.1, and npm reports no supported automatic fix for the affected tree.
+No forced transitive major-version override was applied. ESLint processes local
+source during development/CI and is not included in the deployed browser bundle.
+
+Authenticated GitHub checks still report 57 open Dependabot alerts against the
+lockfile. Those alerts include versions no longer present: Vite is now 8.3.5
+(alert ranges end at 6.4.3), source-map-js is 1.2.2, nanoid is 3.3.20, and
+postcss is 8.5.32. Rollup, esbuild, and js-yaml have been removed from this tree.
+The remaining minimatch advisory is real; GitHub's alert list has not yet been
+fully reconciled with the current lockfile. Do not interpret the old alert count
+as a current npm audit result or dismiss alerts without reviewing their ranges.
+
+The workflow run for commit `34330e6` completed successfully. Pages was still
+configured as legacy publication from `gh-pages` `/` with HTTPS enforced during
+review; the final release should use GitHub Actions as its Pages source.

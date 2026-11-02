@@ -22,7 +22,7 @@ export default function App() {
   }
   return <>
     <a className="skip" href="#details">Skip to details</a>
-    <header className="masthead"><a className="home" href="#" onClick={event => { event.preventDefault(); selectSection('About') }} aria-label="Aarin Mhashelkar home"><img className="home-logo" src="/favicon.ico" alt="" width="48" height="48" /></a><button className="theme-toggle" onClick={() => setTheme(theme === 'amber' ? 'paper' : 'amber')}>{theme === 'amber' ? 'Day mode ☀' : 'Night mode ☾'}</button></header>
+    <header className="masthead"><a className="home" href="#" onClick={event => { event.preventDefault(); selectSection('About') }} aria-label="Aarin Mhashelkar home"><img className="home-logo" src="/favicon.jpg" alt="" width="48" height="48" /></a><button className="theme-toggle" onClick={() => setTheme(theme === 'amber' ? 'paper' : 'amber')}>{theme === 'amber' ? 'Day mode ☀' : 'Night mode ☾'}</button></header>
     <main className="terminal-window">
       <div className="window-bar"><span className="window-dots" aria-hidden="true"><i/><i/><i/></span><span>portfolio_page</span><span className="window-note">Software Engineer</span></div>
       <div className="terminal-body">
@@ -41,7 +41,7 @@ export default function App() {
           </div>
         </section>
       </div>
-      <div className="window-footer"><span><span className="status-dot" aria-hidden="true"/> {section}</span><span>Select a section to explore</span></div>
+      <div className="window-footer"><span role="status" aria-live="polite"><span className="status-dot" aria-hidden="true"/> {section}</span><span>Select a section to explore</span></div>
     </main>
     <footer className="site-footer">© {new Date().getFullYear()} Aarin Mhashelkar</footer>
   </>
