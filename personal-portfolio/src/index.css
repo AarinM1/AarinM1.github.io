@@ -1,10 +1,1 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Outfit", Arial, Helvetica, sans-serif;
-}
-
-html {
-    scroll-behavior: smooth;
-}
+*{box-sizing:border-box}body{margin:0}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit}a{color:inherit}html{scroll-behavior:smooth;scroll-padding-top:35px}*:focus-visible{outline:2px solid var(--accent);outline-offset:6px}button{cursor:pointer}button:disabled{cursor:default}button,a{touch-action:manipulation}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}

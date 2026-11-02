@@ -1,18 +1,31 @@
 [
   {
+    "role": "Associate Software Engineer",
+    "organisation": "Capital One",
+    "startDate": "Aug, 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Build full-stack customer experiences and internal engineering tools, with a focus on automation and reliability."
+    ]
+  },
+  {
     "role": "Software Engineer Intern",
     "organisation": "USAA",
     "startDate": "May, 2024",
     "endDate": "Aug, 2024",
-    "experiences": ["To be experienced", "To be experienced"],
+    "experiences": [
+      "Developed banking prototypes and backend tooling to support customer interactions and internal workflows."
+    ],
     "imageSrc": "history/usaa.png"
   },
   {
-    "role": "Cyber Software Engineer Intern",
+    "role": "Software Engineer Intern",
     "organisation": "Tetra Pak",
     "startDate": "May, 2023",
     "endDate": "November, 2023",
-    "experiences": ["Developed scripts for automation", "Designed interactive dashboards"],
+    "experiences": [
+      "Automated security workflows and built reporting tools to make operational information easier to review."
+    ],
     "imageSrc": "history/tetrapak.png"
   },
   {
@@ -21,8 +34,7 @@
     "startDate": "May, 2022",
     "endDate": "Aug, 2022",
     "experiences": [
-      "Designed & migrated database system",
-      "Implemented OOP into backend system"
+      "Worked on database migration and backend improvements, including a more structured approach to application code."
     ],
     "imageSrc": "history/tss.png"
   }
